@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Piano | Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="keys">
+        <div class="k-body">
+            <div class="key_t">
+                <div class="key">
+                    <div data-key="keya" class="keys_white">
+                        <span>Do</span>
+                        <span>A</span>
+                    </div>
+                    <div data-key="keyw" class="keys_black">
+                        <span>Do#<br/><br>
+                        <span>W</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keys" class="keys_white">
+                        <span>Re</span>
+                        <span>S</span>
+                    </div>
+                    <div data-key="keye" class="keys_black">
+                        <span>Re#<br/><br>
+                        <span>E</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyd" class="keys_white">
+                        <span>Mi</span>
+                        <span>D</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyf" class="keys_white">
+                        <span>Fa</span>
+                        <span>F</span>
+                    </div>
+                    <div data-key="keyt" class="keys_black">
+                        <span>Fa#<br/><br>
+                        <span>T</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyg" class="keys_white">
+                        <span>Sol</span>
+                        <span>G</span>
+                    </div>
+                    <div data-key="keyy" class="keys_black">
+                        <span>Sol#<br/><br>
+                        <span>Y</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyh" class="keys_white">
+                        <span>La</span>
+                        <span>H</span>
+                    </div>
+                    <div data-key="keyu" class="keys_black">
+                        <span>La#<br/><br>
+                        <span>U</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyj" class="keys_white">
+                        <span>Si</span>
+                        <span>J</span>
+                    </div>
+                </div>
+                <div class="key">
+                    <div data-key="keyk" class="keys_white last">
+                        <span>Do</span>
+                        <span>K</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="composer">
+            <input type="text" id="input" placeholder="Componha sua melodia" />
+            <button>Play</button>
+        </div>
+        </div>
+    <footer>Developed by -<a target="_blank" href="https://my-portifolio-rodrigo-daniel.netlify.app/">- Rodrigo Daniel</a></footer>
+
+    <!-- Arquivos de Audio -->
+    <audio id="s_keya" src="sounds/Grand_Imperial - C2_48L.wav"></audio>
+    <audio id="s_keyw" src="sounds/Grand_Imperial - Db2_49L.wav"></audio>
+    <audio id="s_keys" src="sounds/Grand_Imperial - D2_50L.wav"></audio>
+    <audio id="s_keye" src="sounds/Grand_Imperial - Eb2_51L.wav"></audio>
+    <audio id="s_keyd" src="sounds/Grand_Imperial - E2_52L.wav"></audio>
+    <audio id="s_keyf" src="sounds/Grand_Imperial - F2_53L.wav"></audio>
+    <audio id="s_keyt" src="sounds/Grand_Imperial - Gb2_54L.wav"></audio>
+    <audio id="s_keyg" src="sounds/Grand_Imperial - G2_55L.wav"></audio>
+    <audio id="s_keyy" src="sounds/Grand_Imperial - Ab2_56L.wav"></audio>
+    <audio id="s_keyh" src="sounds/Grand_Imperial - A2_57L.wav"></audio>
+    <audio id="s_keyu" src="sounds/Grand_Imperial - Bb2_58L.wav"></audio>
+    <audio id="s_keyj" src="sounds/Grand_Imperial - B2_59L.wav"></audio>
+    <audio id="s_keyk" src="sounds/Grand_Imperial - C3_60L.wav"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
