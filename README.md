@@ -13,11 +13,11 @@
 
  ## Projeto rodando:
  
- 🔰 Link: <a href="https://pizzaria-ze.netlify.app/">www.pizzariaze.com.br</a>
+ 🔰 Link: <a href="https://piano-online-javascript.netlify.app/">www.piano-online.com.br</a>
 ## Resultado 💻
  <hr>
  <div style="display: flex;">
-    <img src="https://i.imgur.com/6dlPd98.png" alt="Print App">
+    <img src="https://i.imgur.com/F1T7npN.png" alt="Print App">
  </div>
 
  <hr>
